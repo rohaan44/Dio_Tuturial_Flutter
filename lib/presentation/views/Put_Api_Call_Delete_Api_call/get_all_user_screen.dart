@@ -1,4 +1,4 @@
-import 'package:fake_store/controllers/Put_Api_Delete_Api/get_all_user_controller.dart';
+import 'package:fake_store/presentation/controllers/Put_Api_Delete_Api/get_all_user_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

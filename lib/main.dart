@@ -1,8 +1,8 @@
-import 'package:fake_store/controllers/Get_Api_call/home_controllers.dart';
-import 'package:fake_store/controllers/Get_Api_call/map_controller..dart';
-import 'package:fake_store/controllers/Post_Api_call/post_api_controller.dart';
-import 'package:fake_store/controllers/Put_Api_Delete_Api/get_all_user_controller.dart';
-import 'package:fake_store/views/Put_Api_Call_Delete_Api_call/get_all_user_screen.dart';
+import 'package:fake_store/presentation/controllers/Get_Api_call/home_controllers.dart';
+import 'package:fake_store/presentation/controllers/Get_Api_call/map_controller..dart';
+import 'package:fake_store/presentation/controllers/Post_Api_call/post_api_controller.dart';
+import 'package:fake_store/presentation/controllers/Put_Api_Delete_Api/get_all_user_controller.dart';
+import 'package:fake_store/presentation/views/Put_Api_Call_Delete_Api_call/get_all_user_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

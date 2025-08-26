@@ -1,9 +1,9 @@
-import 'package:fake_store/models/get_all_users.dart';
-import 'package:fake_store/models/map_model.dart';
-import 'package:fake_store/models/products_model.dart';
-import 'package:fake_store/models/response_model.dart';
-import 'package:fake_store/network/network_properties/network_properties.dart';
-import 'package:fake_store/network/network_services/dio_helper.dart';
+import 'package:fake_store/data/models/get_all_users.dart';
+import 'package:fake_store/data/models/map_model.dart';
+import 'package:fake_store/data/models/products_model.dart';
+import 'package:fake_store/data/models/response_model.dart';
+import 'package:fake_store/core/network/network_properties/network_properties.dart';
+import 'package:fake_store/core/network/network_services/dio_helper.dart';
 
 class Repository {
   static final DioHelper _dioHelper = DioHelper();

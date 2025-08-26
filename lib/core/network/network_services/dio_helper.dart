@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:fake_store/network/network_services/api_interceptors.dart';
+import 'package:fake_store/core/network/network_services/api_interceptors.dart';
 
 class DioHelper {
   Dio dio = getDio();

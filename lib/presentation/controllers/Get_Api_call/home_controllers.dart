@@ -1,6 +1,6 @@
 import 'dart:developer';
-import 'package:fake_store/network/network_services/dio_helper.dart';
-import 'package:fake_store/network/repository/repo_service.dart';
+import 'package:fake_store/core/network/network_services/dio_helper.dart';
+import 'package:fake_store/domain/repository/repo_service.dart';
 import 'package:flutter/material.dart';
 
 class HomeController with ChangeNotifier {

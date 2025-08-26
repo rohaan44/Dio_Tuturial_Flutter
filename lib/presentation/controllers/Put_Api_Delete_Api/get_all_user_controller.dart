@@ -1,6 +1,6 @@
 import 'dart:developer';
 
-import 'package:fake_store/network/repository/repo_service.dart';
+import 'package:fake_store/domain/repository/repo_service.dart';
 import 'package:flutter/material.dart';
 
 class GetAllUserController with ChangeNotifier {

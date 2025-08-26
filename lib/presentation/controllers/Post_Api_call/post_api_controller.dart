@@ -1,7 +1,7 @@
 import 'dart:developer';
 
-import 'package:fake_store/models/response_model.dart';
-import 'package:fake_store/network/repository/repo_service.dart';
+import 'package:fake_store/data/models/response_model.dart';
+import 'package:fake_store/domain/repository/repo_service.dart';
 import 'package:flutter/material.dart';
 
 class PostApiController with ChangeNotifier {

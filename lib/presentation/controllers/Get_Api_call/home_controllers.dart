@@ -10,12 +10,16 @@ class HomeController with ChangeNotifier {
   HomeController() {
     getProducts();
   }
-  getProducts() {
-    Repository().getAPI().then((value) {
-      productsList = value as List;
-      notifyListeners();
-    }).onError((error, stackTrace) {
-      log(error.toString());
-    });
-  }
+ 
+ 
+ getProducts() {
+  Repository().getAPI(true).then((value) {
+    productsList = value;
+    notifyListeners();
+  }).onError((error, stackTrace) {
+    log("Error fetching products: $error");
+    productsList = [];
+    notifyListeners();
+  });
+}
 }
